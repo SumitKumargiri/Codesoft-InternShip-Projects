@@ -1,5 +1,7 @@
-# Codesoft-InternShip-Projects
-             ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/554733d9-346f-4432-9848-69d263fc4779)
+# Codesoft-Internship-Projects
+
+![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/9ebca642-1cda-45ec-877c-ff32b2c88dc5)
+
                  
 Codesoft Internship Projects offer hands-on experience in software development, fostering skills in coding, problem-solving, and collaboration. Participants engage in real-world projects, enhancing their knowledge and preparing them for future opportunities in the tech industry.
 
@@ -44,7 +46,7 @@ Codesoft Internship Projects offer hands-on experience in software development, 
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/58c74e39-51dc-45b4-8c20-4b29c9529aa2)
 
 
-             ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/02bfb438-27e1-4b2a-ae67-4a7219bcab43)
+![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/02bfb438-27e1-4b2a-ae67-4a7219bcab43)
 
 
 # Creating a Job-Board using HTML, CSS, and JAVASCRIPT.
