@@ -7,6 +7,8 @@ Codesoft Internship Projects offer hands-on experience in software development, 
 
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/8ced761a-f230-41bc-a09a-eed080b67b83)
 
+# Responsive-Portfolio-website creating HTML, CSS, and JAVASCRIPT and working all functionality all well.
+
 
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/d0518185-bcd9-48cd-a234-fd3917962b9d)
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/5f0d1850-c39a-4756-a0c7-fa76ab577a4d)
@@ -18,10 +20,12 @@ Codesoft Internship Projects offer hands-on experience in software development, 
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/a02f45b9-513a-46ee-a3ba-68f89de354fc)
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/0c975320-1a39-4a5c-b226-66fbb9441d76)
 
+# Creating a landscape page using HTML, CSS, and JAVASCRIPT.
 
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/0dc83b03-c118-4218-8afe-d2f61c392ca1)
 
 
+# Creating the calculator using HTML, CSS, and JAVASCRIPT and all functionality is working well.
 
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/b01b58b5-2d10-4d95-b2fd-72b0b5a60ccd)
 
