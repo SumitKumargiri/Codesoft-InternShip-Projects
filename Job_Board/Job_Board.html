@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            padding-right: 20px;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            background-color: rgb(102, 102, 233);
+            align-items: center;
+            justify-content: center;
+            
+        }
+        button {
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgb(71, 193, 71);
+            color: white;
+            border-color: green;
+            display: flex;
+            position: relative;
+            left: 400px;
+        }
+        .artical {
+            padding-left: 150px;
+            color: white;
+            background-image: url("image.jpg");
+            padding-bottom: 500px;
+            background-size: cover;
+            padding-top: 200px;
+            position: sticky;
+        }
+        h4 {
+            font-family: 'Gabarito', sans-serif;
+            font-size: xx-large;
+        }
+        h1 {
+            font-size: 70px;
+            animation: findjob 2s ease-in-out;
+        }
+        p {
+            font-size: larger;
+            color: beige;
+            animation: para 2s ease-in-out;
+        }
+        .ar {
+            background-color: rgba(0, 0, 0, 0.15);
+            margin-right: 300px;
+            padding-left: 20px;
+        }
+        a:hover {
+            background-color: rgb(71, 199, 16);
+            color: blue;
+        }
+        button:hover {
+            background-color: rgb(71, 199, 16);
+            color: blue;
+            cursor: pointer;
+        }
+        #fi {
+            height: 40px;
+            width: 40px;
+            border-radius: 100px;
+            float: left;
+            padding: 2px;
+            margin: 0px;
+        }
+        @keyframes findjob {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        @keyframes para {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        .count-animation {
+            animation: countUp 1s;
+        }
+        @keyframes countUp {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+                counter-increment: jobCount;
+            }
+        }
+        h4::after {
+            content: counter(jobCount);
+        }
+        #so {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+        select {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+        }
+        button#findJobButton {
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: rgb(71, 193, 71);
+            color: white;
+            border-color: green;
+            font-size: 16px;
+        }
+        #findJobButton:hover{
+            box-shadow: 0 0 10px aqua;
+            background-color: green;
+            color:aliceblue;
+
+        }
+        #so select:first-child {
+            margin-right: 10px;
+        }
+        input[type="button"]{
+            padding: 10px 20px;
+            background-color: rgb(71, 193, 71);
+            color: white;
+            border-radius: 20px;
+            
+        }
+       #bo:hover{
+            background-color: green;
+color: aliceblue;
+border-radius: 20px;
+font-size: large;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Lato&family=Orbitron:wght@400;600&family=Oswald:wght@700&family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="fd">
+        <nav>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.cUDsFklhEMMVOj95byVVQAHaHa&pid=Api&P=0&h=180" alt="inf" id="fi">
+            <a href="">Home</a>
+            <a href="">Browse Job</a>
+            <a href="">Pages</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+            <a href="">Login</a>
+            <button>Post a Job</button>
+        </nav>
+        <div class="artical">
+            <div class="ar">
+                <h4 class="count-animation">+<span style="counter-reset: jobCount 0;"> Jobs listed:</span></h4>
+                <h1>Find your Dream job</h1>
+                <p>We provide online instant cash loans with quick approval that suit your term length</p>
+                <button id="findJobButton">Upload your Resume</button>
+            </div>
+        </div>
+    </div>
+    <div id="so">
+        <select>
+            <option> Search Keyword</option>
+            <option>Web Developer</option>
+            <option>Machine Learning</option>
+            <option>AI</option>
+        </select>
+        <select>
+            <option>Location</option>
+            <option>Web Developer</option>
+            <option>Machine Learning</option>
+            <option>AI</option>
+        </select>
+        <select>
+            <option>Category</option>
+            <option>Web Developer</option>
+            <option>Machine Learning</option>
+            <option>AI</option>
+        </select>
+        <input type="button" value="findjob" id="bo">
+    </div>
+    <script>
+        window.onload = function() {
+            var jobCountElement = document.querySelector('.count-animation');
+            var jobCount = 0;
+            var targetCount = 1500;
+            function updateCount() {
+                jobCountElement.innerHTML = "+" + jobCount + " Jobs listed";
+                jobCount++;
+                if (jobCount <= targetCount) {
+                    setTimeout(updateCount, 10);
+                }
+            }
+            updateCount();
+        };
+    </script>
+</body>
+</html>
