@@ -51,7 +51,15 @@ Codesoft Internship Projects offer hands-on experience in software development, 
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/58c74e39-51dc-45b4-8c20-4b29c9529aa2)
 
 
+
+# Creating a Job-Board using HTML, CSS, and JAVASCRIPT.
+
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/02bfb438-27e1-4b2a-ae67-4a7219bcab43)
+
+
+![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/81cf49fc-90e8-4fb3-9fd1-4bcc08575599)
+![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/0f9dd2dc-746a-4c50-9bc1-a5aaf27e2d72)
+
 
 
 # Creating the Online Quiz Application.
@@ -62,13 +70,4 @@ Codesoft Internship Projects offer hands-on experience in software development, 
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/b9b7aabe-7286-4572-a0a2-f53cd7407e74)
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/22d0f3f2-7a61-43fd-aaac-e009b53f3988)
 ![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/5ae1004d-2272-47b7-931c-7c2165463842)
-
-
-
-
-
-# Creating a Job-Board using HTML, CSS, and JAVASCRIPT.
-
-![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/81cf49fc-90e8-4fb3-9fd1-4bcc08575599)
-![image](https://github.com/SumitKumargiri/Codesoft-InternShip-Projects/assets/96234273/0f9dd2dc-746a-4c50-9bc1-a5aaf27e2d72)
 
