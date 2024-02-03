@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;600;700&family=Nunito:wght@300;500;700;800&display=swap");
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    width: 80%;
+    height: 70%;
+}
+
+.test-welcoming {
+    text-align: center;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.active {
+    display: block;
+}
+
+.notactive {
+    display: none;
+}
